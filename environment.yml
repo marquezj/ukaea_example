@@ -1,0 +1,22 @@
+name: ukaeaexample
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python
+  - ncrystal
+  - numpy
+  - matplotlib
+  - jupyterlab
+  - ipympl
+  #Optional dependencies only required for some notebooks:
+  - spglib
+  - ase
+  - gemmi
+  - pandas
+  - tqdm
+  - endf-parserpy
+  - openmc
+  - njoy2016
+  - mcstas-core
+
